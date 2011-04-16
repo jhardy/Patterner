@@ -1,7 +1,7 @@
 Patterner
 ==========
 
-Patterner is a compass extension that contains a library of customizable patterns for use as background images. Images are outputted as base64 data url png using the [chunky_png library](https://github.com/wvanbergen/chunky_png). The png images outputted are transparent so where is no pattern the background color will show through, the patterns themselves can also be transparent when setting the color of the pattern using an hsla or rgba color. You can see a quick demo of the patterns [here](http://dl.dropbox.com/u/1274637/patterns/patterner.html)
+Patterner is a compass extension that contains a library of customizable patterns for use as background images. Images are outputted as base64 data url png using the [chunky_png library](https://github.com/wvanbergen/chunky_png). The png images outputted are transparent so where there is no pattern the background color will show through, the patterns themselves can also be transparent when setting the color of the pattern using an hsla or rgba color. You can see a quick demo of the patterns [here](http://dl.dropbox.com/u/1274637/patterns/patterner.html)
 
 Installation
 -------------
