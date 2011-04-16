@@ -1,0 +1,56 @@
+// Example usage
+// All examples use all the arguments for you to explore and experiemnt with, only the pattern stlye and color are required
+.patterner 
+	width: 300px
+	height: 300px
+	float: left
+	margin: 25px
+	&:hover 
+		background-color: #333  
+
+// Checker
+.checker 
+	background: pattern(checker, #333333, 50, hsla(0, 0, 70, 0.5)) 
+
+// Crosshatch
+.crosshatch 
+	background: pattern(crosshatch, hsla(318, 100, 50, 1), 1, 20, hsla(33, 100, 50, 1)) 
+
+// Diamond
+.diamond 
+	background: pattern(diamond, hsla(180, 50, 50, 1), 25, 30) 
+
+// Dots
+.dots 
+	background: pattern(dots, hsla(0, 50, 50, 1), 10, 20) 
+
+.offset-dots 
+	background: pattern(offset-dots, #cccccc, 20, 5) 
+
+// Grids
+.grid 
+	background: pattern(grid, #e6a031, 25) 
+
+.blueprint 
+	background: pattern(blueprint, teal, 75) 
+
+// Plus
+.plus 
+	background: pattern(plus, green, 10, 15) 
+
+// Stripes
+.horizontal-stripes 
+	background: pattern(horizontal-stripe, teal, 20, 10) 
+
+.vertical-stripes 
+	background: pattern(vertical-stripe, #a95ec5, 10, 20) 
+
+.forward-stripes 
+	background: pattern(forward-stripe, hsla(12, 100, 61, 1), 1, 10) 
+
+.backwards-stripes 
+	background: pattern(backward-stripe, hsla(220, 80, 60, 0.8), 10, 25) 
+
+// Zigzag
+.zigzag 
+	background: pattern(zigzag, hsla(90, 80, 45, 0.8), 20, 25, 5) 
